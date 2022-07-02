@@ -1,6 +1,10 @@
 const lineByLine = require('n-readlines');
+const inputFilePath = process.argv[2]
 
-const liner = new lineByLine('./test.in');
+if(!inputFilePath){
+  throw Error("inputFilePath not found, Pass the input file path as an arg to yarn start")
+}
+const liner = new lineByLine(inputFilePath);
 
 const totalCases = parseInt(liner.next().toString());
 for (let i = 0; i < totalCases; i++) {

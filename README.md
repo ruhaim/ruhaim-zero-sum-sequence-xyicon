@@ -1,6 +1,3 @@
-# node-cpgv7y
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-cpgv7y)
 
 Zero sum subsequence
 
@@ -65,3 +62,22 @@ Extra challenge
 
 It is possible to write a solution that is able to compute this large input file in under 10
 seconds (T = 100, N ≤ 100,000). Are you able to do it?
+
+
+# Running the code
+This project is a node js project
+- clone the repo
+- run `yarn`
+- add your input file (.in) into the `./data` folder
+- run `yarn start <PATH_TO_INPUT_FILE>`, eg : `yarn start ./data/test.in`
+- The results will be logged on th console
+
+## Generated Output 
+The output files (.out) were generated and stored in the this repos `/data` folder
+The outputs files are
+- `example.out` - Result of the `example.in`
+- `test.out` - Result of the provided `test.in`
+- `large.out` - The result of the `large.in`
+
+# node-cpgv7y
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-cpgv7y)
