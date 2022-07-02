@@ -1,6 +1,6 @@
 const lineByLine = require('n-readlines');
 
-const liner = new lineByLine('./example.in');
+const liner = new lineByLine('./test.in');
 
 const totalCases = parseInt(liner.next().toString());
 for (let i = 0; i < totalCases; i++) {
